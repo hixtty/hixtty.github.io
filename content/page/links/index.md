@@ -1,10 +1,11 @@
 ---
 title: 友链
+slug: links
 links:
   - title: Hixtty 的 GitHub
     description: 我的代码仓库和开源项目。
     website: https://github.com/hixtty
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+    image: github-mark.png
   - title: Hugo
     description: 世界上最快的静态网站生成器。
     website: https://gohugo.io/

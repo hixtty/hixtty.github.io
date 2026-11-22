@@ -8,11 +8,20 @@
 
 ## 本地开发
 
-需要安装：
+需要：
 
 - Git
 - [Hugo extended](https://gohugo.io/installation/)（主题要求 0.157.0 及以上）
+- [Dart Sass](https://github.com/sass/dart-sass/releases)（Stack 主题编译 SCSS 需要）
 - Go（Hugo Modules 拉取主题时需要）
+
+Windows 安装 Hugo：
+
+```powershell
+winget install --id Hugo.Hugo.Extended --exact
+```
+
+Dart Sass 下载 `windows-x64.zip` 后解压，把包含 `sass.bat` 的目录加入 `PATH`。
 
 启动本地预览：
 
@@ -27,6 +36,8 @@ hugo server -D
 ```bash
 hugo new content post/my-new-post/index.md
 ```
+
+新文章默认是草稿（`draft: true`），本地用 `hugo server -D` 可以预览，发布前把 `draft` 改成 `false`。
 
 把封面图放在同一目录，并在 front matter 里写 `image: cover.jpg` 即可。
 

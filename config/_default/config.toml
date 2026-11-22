@@ -1,7 +1,6 @@
 # 站点基础配置
 baseURL      = "https://hixtty.github.io/"
 locale       = "zh-cn"
-languageCode = "zh-CN"
 title        = "Hixtty 的博客"
 
 # Stack 主题的 i18n 中文文件名为 zh
