@@ -3,7 +3,7 @@
 个人博客，使用 [Hugo](https://gohugo.io/) + [Stack](https://github.com/CaiJimmy/hugo-theme-stack) 构建，
 通过 GitHub Actions 自动部署到 GitHub Pages。
 
-- 站点地址：<https://hixtty.github.io/>
+- 站点地址：<https://hixtty.dpdns.org/>
 - 主题版本：Stack v4（由 Hugo Modules 管理）
 
 ## 本地开发

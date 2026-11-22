@@ -1,5 +1,5 @@
 # 站点基础配置
-baseURL      = "https://hixtty.github.io/"
+baseURL      = "https://hixtty.dpdns.org/"
 locale       = "zh-cn"
 title        = "Hixtty 的博客"
 
