@@ -1,0 +1,46 @@
+# 首页和归档页展示的内容分区
+mainSections = ["post"]
+# RSS 输出全文
+rssFullContent = true
+favicon        = "img/favicon.png"
+
+SortBy              = "default"
+
+[footer]
+    since      = 2026
+    customText = ""
+
+[dateFormat]
+    published   = ":date_full"
+    lastUpdated = ":date_full"
+
+[sidebar]
+    emoji    = "🦊"
+    subtitle = "记录技术、折腾与生活。"
+    avatar   = "img/avatar.png"
+
+[article]
+    headingAnchor = true
+    math          = false
+    readingTime   = true
+
+    [article.license]
+        enabled = true
+        default = "本文采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。"
+
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } },
+    ]
+    page = [{ type = "toc" }]
+
+[colorScheme]
+    toggle  = true
+    default = "auto"
+
+# 评论默认关闭，需要时再接入 Disqus / giscus 等
+[comments]
+    enabled = false

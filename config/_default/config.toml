@@ -1,0 +1,14 @@
+# 站点基础配置
+baseURL      = "https://hixtty.github.io/"
+locale       = "zh-cn"
+languageCode = "zh-CN"
+title        = "Hixtty 的博客"
+
+# Stack 主题的 i18n 中文文件名为 zh
+defaultContentLanguage = "zh"
+
+# 中文内容需要开启，.Summary 和 .WordCount 才会按中文规则计算
+hasCJKLanguage = true
+
+[pagination]
+    pagerSize = 5
