@@ -41,6 +41,22 @@ SortBy              = "default"
     toggle  = true
     default = "auto"
 
-# 评论默认关闭，需要时再接入 Disqus / giscus 等
+# 评论：giscus，数据存放在本仓库的 GitHub Discussions
 [comments]
-    enabled = false
+    enabled  = true
+    provider = "giscus"
+
+    [comments.giscus]
+        repo             = "hixtty/hixtty.github.io"
+        repoID           = "R_kgDOV3XaPQ"
+        category         = "Announcements"
+        categoryID       = "DIC_kwDOV3XaPc4DLyNp"
+        mapping          = "pathname"
+        lightTheme       = "light"
+        darkTheme        = "dark_dimmed"
+        reactionsEnabled = 1
+        emitMetadata     = 0
+        inputPosition    = "top"
+        lang             = "zh-CN"
+        strict           = 0
+        loading          = "lazy"
