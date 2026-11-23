@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # RSS 输出全文
 rssFullContent = true
-favicon        = "img/favicon.png"
+favicon        = "img/favicon-avatar.png"
 
 SortBy              = "default"
 
